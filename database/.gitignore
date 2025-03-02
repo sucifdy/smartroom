@@ -1,0 +1,43 @@
+# Direktori Vendor & Dependensi
+/vendor
+/node_modules
+
+# Konfigurasi Lingkungan
+.env
+.env.backup
+
+# File Cache & Log
+bootstrap/cache/
+storage/*.key
+storage/debugbar/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/testing/
+storage/framework/views/
+storage/logs/
+storage/oauth-private.key
+storage/oauth-public.key
+
+# Database Lokal (kalau pakai SQLite)
+database/database.sqlite
+
+# File IDE & Editor
+.idea/
+.vscode/
+*.sublime-workspace
+
+# File Build & Cache
+npm-debug.log
+yarn-error.log
+.DS_Store
+public/hot
+public/storage
+storage/oauth-private.key
+storage/oauth-public.key
+
+# Direktori Test
+phpunit.xml
+phpunit.xml.dist
+
+# File GitHub Actions Cache
+.github/workflows/vendor/
